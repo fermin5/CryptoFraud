@@ -2,7 +2,7 @@ CryptoFraud - Ethereum fraud detection tool
 ============================================
 
 <div align="center">
-    <img alt="Logo" src="https://github.com/FedericoMazza11/CryptoFraud/blob/main/src/public/CryptoFraudBase2.png">
+    <img alt="Logo" src="https://github.com/FedericoMazza11/CryptoFraud/blob/main/src/public/CryptoFraudLogoGit.png">
 </div>
 
 ## Installation
