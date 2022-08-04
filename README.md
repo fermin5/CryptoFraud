@@ -33,6 +33,12 @@ npm i
 node --max-old-space-size=16384 src/index.js`
 ```
 
+### Usage
+
+After you excute `node --max-old-space-size=16384 src/index.js` the app will be set to the url `http://localhost:3000/`.
+You may need to get an API key from https://etherscan.io/ in order to use the API,
+If you have one, fill it in the input as well as the wallet you are trying to retrieve.
+
 ### Contents
 
 The repository is structured as follows.
@@ -40,12 +46,6 @@ The repository is structured as follows.
 * `./src`: model source code
 * `./src/public`: public files
 * `./src/routes`: routes handler
-
-### Usage
-
-After you excute `node --max-old-space-size=16384 src/index.js` the app will be set to the url `http://localhost:3000/`.
-You may need to get an API key from https://etherscan.io/ in order to use the API,
-If you have one, fill it in the input as well as the wallet you are trying to retrieve.
 
 ### Roadmap
 - [X] Ethereum Blockchain support
