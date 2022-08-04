@@ -1,0 +1,57 @@
+header {
+  height: calc(100vh);
+  background-size: cover;
+  position: relative;
+  margin-bottom: 4em;
+}
+video {
+  object-fit: cover;
+  height: 100%;
+  filter: brightness(80%) opacity(102%);
+  width: 100%;
+  position: absolute;
+  z-index: -1000;
+}
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: calc(100vh);
+  z-index: 0;
+}
+.content {
+  padding: 3em;
+}
+
+canvar .size50 {
+  max-width: 50% !important;
+}
+
+p {
+  max-width: 35em;
+}
+
+section {
+  padding: 4em 0;
+}
+
+h2 {
+  margin-bottom: 1.5em;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 30em;
+  }
+}

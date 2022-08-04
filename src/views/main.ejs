@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel='stylesheet' href='/main.css' />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+
+
+    <header class="white-text valign-wrapper">
+      <video src="background.mp4" autoplay muted loop> </video>
+
+      <div style="position: relative;" class="container">
+        <img src="CryptoFraudBase.png" alt="" class="brand-logo">
+        <p class="grey-text">cryptofraud - An ethereum fraud detection tool | <a href="https://docs.etherscan.io/getting-started/viewing-api-usage-statistics" target="_blank">know more</a></p>
+
+        <p class="grey-text">In order to be able to use the application you need a wallet address as well as an API key from etherscan.io, you can get an API key get from <a href="https://docs.etherscan.io/getting-started/viewing-api-usage-statistics" target="_blank">Etherscan.io</a></p>
+
+          <div class="row">
+            <form class="col s12" method="post">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input name="address" id="address" type="text" class="validate" style="color: white;">
+                  <label for="address">Wallet address</label>
+                </div>
+                <div class="input-field col s6">
+                  <input name="api" id="api" type="text" class="validate" style="color: white;">
+                  <label for="api">API Key</label>
+                </div>
+              </div>
+              <div class="row s12">
+                <p class="grey-text s12">By default, the algorithm will search the first 100k transactions without wallet tracking or 10k with it enabled, if you want to do a custom search specify the indexes below.</p>
+
+                <div class="input-field col s3">
+                  <input name="from" id="from" type="text" class="validate" style="color: white;">
+
+                  <label for="from">From transaction nº</label>
+                </div>
+                <div class="input-field col s3">
+                  <input  name="to" id="to" type="text" class="validate" style="color: white;">
+                  <label for="to">To transaction nº</label>
+                </div>
+                <p>
+                  <label>
+                    <input type="checkbox" class="filled-in" id="track" name="track"/>
+                    <span>Track wallets interactions <br>*Significally affects loading times</span>
+                  </label>
+                </p>
+              </div>
+
+
+              <button class="btn waves-effect  green darken-3" type="submit" name="action">Search</button>
+            </form>
+          </div>
+      </div>
+    </header>
+  </body>
+</html>
