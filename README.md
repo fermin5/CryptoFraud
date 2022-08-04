@@ -9,7 +9,8 @@ CryptoFraud - Ethereum fraud detection tool
 
 ### Requirements
 
-The application was developed using Node.js 8.11.0 and uses the following additional libraries.
+The application was developed using Node.js 16.16.0 and uses the following additional libraries.
+https://nodejs.org/es/download/
 
 * `Express==4.18.1`
 * `Body-parser==1.20.0`
@@ -28,6 +29,7 @@ And execute index.js
 
 ```
 cd CryptoFraud 
+npm i
 node --max-old-space-size=16384 src/index.js`
 ```
 
