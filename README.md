@@ -22,6 +22,12 @@ To install this package, simply clone the git repo:
 
 ```
 git clone https://github.com/FedericoMazza11/CryptoFraud;
+```
+
+And execute index.js
+
+```
+cd CryptoFraud 
 node --max-old-space-size=16384 src/index.js`
 ```
 
@@ -35,8 +41,9 @@ The repository is structured as follows.
 
 ### Usage
 
-After you excute `node --max-old-space-size=16384 src/index.js` the app will be set to the url `http://localhost:3000/` you need to get an API key from https://etherscan.io/
-once you have one, fill it in the input as well as the wallet you are trying to retrieve.
+After you excute `node --max-old-space-size=16384 src/index.js` the app will be set to the url `http://localhost:3000/`.
+You may need to get an API key from https://etherscan.io/ in order to use the API,
+If you have one, fill it in the input as well as the wallet you are trying to retrieve.
 
 ### Roadmap
 - [X] Ethereum Blockchain support
