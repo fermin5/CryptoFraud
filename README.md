@@ -4,6 +4,7 @@ CryptoFraud - Ethereum fraud detection tool
 <div align="center">
     <img alt="Logo" src="https://github.com/FedericoMazza11/CryptoFraud/blob/main/src/public/CryptoFraudBase2.png">
 </div>
+
 ## Installation
 
 ### Requirements
@@ -37,7 +38,7 @@ The repository is structured as follows.
 After you excute `node --max-old-space-size=16384 src/index.js` the app will be set to the url `http://localhost:3000/` you need to get an API key from https://etherscan.io/
 once you have one, fill it in the input as well as the wallet you are trying to retrieve.
 
-# Roadmap
+### Roadmap
 - [X] Ethereum Blockchain support
 - [X] Data collect
 - [X] Visualization
