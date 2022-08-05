@@ -53,6 +53,8 @@ The repository is structured as follows.
 - [X] Visualization
 - [X] Early detection of scams
 - [x] Improve performance at big operations (+10k)
+- [ ] Add internal transactions for contracts
+- [ ] Add assets graph
 - [ ] Improve performance at big operations (+100k)
 - [ ] Port application to bun
 - [ ] Binance Blockchain support
