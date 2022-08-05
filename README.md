@@ -55,6 +55,7 @@ The repository is structured as follows.
 - [x] Improve performance at big operations (+10k)
 - [ ] Add internal transactions for contracts
 - [ ] Add assets graph
+- [ ] Contract risk analysis
 - [ ] Improve performance at big operations (+100k)
 - [ ] Port application to bun
 - [ ] Binance Blockchain support
